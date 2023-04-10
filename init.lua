@@ -1191,7 +1191,7 @@ if minetest.get_modpath("unified_inventory") ~= nil then
 	unified_inventory.register_button("doc", {
 		type = "image",
 		image = "doc_button_icon_hires.png",
-		tooltip = S("Help"),
+		tooltip = S("Documentation"),
 		action = button_action,
 	})
 end
